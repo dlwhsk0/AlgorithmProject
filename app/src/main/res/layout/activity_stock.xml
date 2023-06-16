@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stock"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StockActivity">
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="- 현재 재고량 -"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCur"
+        android:layout_width="335dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="30dp"
+        android:scrollbars="vertical"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="273dp"
+            android:layout_height="56dp"
+            android:background="#00ff0000" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="- 예상 발주량 -"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvOrd"
+        android:layout_width="335dp"
+        android:layout_height="220dp"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
